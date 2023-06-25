@@ -1,0 +1,7 @@
+const path = require("path");
+module.exports = {
+  config: path.resolve("mymy/config", "config.mjs"),
+  "models-path": path.resolve("mymy", "models"),
+  "seeders-path": path.resolve("mymy", "seeders"),
+  "migrations-path": path.resolve("mymy", "migrations"),
+};
